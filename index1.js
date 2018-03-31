@@ -4,9 +4,9 @@ var d = 0;
 <<<<<<< HEAD
 
 function bb() {
-	
+
 }
 function as() {
 
-	
+	console.log('hello world')
 }
