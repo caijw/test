@@ -10,3 +10,12 @@ function as() {
 
 	console.log('hello world')
 }
+
+
+function c(argument) {
+	// body...
+}
+function sd() {
+	
+
+}
