@@ -6,8 +6,8 @@
 
 
 
-static void deleteTheText(napi_env env, void* data, void* finalize_hint) {
-  printf("----------------deleteTheText free data--------------\n");
+static void freeData(napi_env env, void* data, void* finalize_hint) {
+  printf("----------------free data--------------\n");
   free(data);
 }
 
@@ -23,7 +23,7 @@ static napi_value newExternalBuffer(napi_env env, napi_callback_info info) {
                 env,
                 3000000,
                 theCopy,
-                deleteTheText,
+                freeData,
                 NULL,  // finalize_hint
                 &theBuffer));
 
