@@ -1,5 +1,4 @@
 'use strict';
-// Flags: --expose-gc
 
 const binding = require(`./build/Release/binding.node`);
 const assert = require('assert');
