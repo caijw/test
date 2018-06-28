@@ -26,7 +26,8 @@ static napi_value newExternalBuffer(napi_env env, napi_callback_info info) {
                 freeData,
                 NULL,  // finalize_hint
                 &theBuffer));
-
+  int64_t result;
+  //NAPI_CALL(env, napi_adjust_external_memory(env, 3000000, &result));  //nodejs v10 should call this api to give v8 a hint to trigger gc.If no, memery will leak. see discussion https://github.com/nodejs/node/issues/21441
   return theBuffer;
 }
 
