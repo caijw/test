@@ -1,0 +1,1 @@
+cmd_Release/hash.node := c++ -bundle -undefined dynamic_lookup -Wl,-no_pie -Wl,-search_paths_first -mmacosx-version-min=10.7 -arch x86_64 -L./Release -stdlib=libc++  -o Release/hash.node Release/obj.target/hash/main.o 
