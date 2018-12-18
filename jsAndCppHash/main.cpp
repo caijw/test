@@ -6,13 +6,9 @@ unsigned long hash(char *str, size_t strLen)
 {
     unsigned long hash = 5381;
     int c;
-    int count = 20;
-    for(int i = strLen - 1; i >= 0; --i){
+    for(size_t i = 0; i < strLen; ++i){
     	c = str[i];
     	hash = ((hash << 5) + hash) + c; /* hash * 33 + c */
-    	if(count-- <= 0){
-    		break;
-    	}
     }
     return hash;
 }

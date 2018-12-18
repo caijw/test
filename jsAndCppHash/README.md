@@ -21,30 +21,28 @@ system: macos 10.14.2
 
 5. 测试结果，截取其中一部分：  
 ```
-str len: 1497200, chash: 16403306697122232420, ccost: 3ms, jshash: 178625630, jscost: 4ms
-str len: 1497300, chash: 12616828603835260371, ccost: 3ms, jshash: 3179410556, jscost: 4ms
-str len: 1497400, chash: 5651299246978095860, ccost: 3ms, jshash: 1178030734, jscost: 4ms
-str len: 1497500, chash: 2643625579312088352, ccost: 3ms, jshash: 1665622411, jscost: 4ms
-str len: 1497600, chash: 18126004550825182587, ccost: 4ms, jshash: 1773049443, jscost: 4ms
-str len: 1497700, chash: 14935299071896507198, ccost: 4ms, jshash: 1644917826, jscost: 4ms
-str len: 1497800, chash: 1551356319384453666, ccost: 4ms, jshash: 3647302003, jscost: 4ms
-str len: 1497900, chash: 18316721791389509092, ccost: 3ms, jshash: 4014887812, jscost: 4ms
-str len: 1498000, chash: 10871065525226822022, ccost: 4ms, jshash: 2143121083, jscost: 4ms
-str len: 1498100, chash: 5265440781303860355, ccost: 5ms, jshash: 3011975168, jscost: 4ms
-str len: 1498200, chash: 13317515782122064058, ccost: 3ms, jshash: 1202744686, jscost: 5ms
-str len: 1498300, chash: 17213516654643479030, ccost: 3ms, jshash: 60713276, jscost: 4ms
-str len: 1498400, chash: 6779829987058991350, ccost: 4ms, jshash: 480201465, jscost: 4ms
-str len: 1498500, chash: 12306297400128398817, ccost: 4ms, jshash: 3609229037, jscost: 4ms
-str len: 1498600, chash: 2115317624246061080, ccost: 3ms, jshash: 1735529463, jscost: 4ms
-str len: 1498700, chash: 2511517660930269077, ccost: 4ms, jshash: 3703937459, jscost: 4ms
-str len: 1498800, chash: 14245054932145473728, ccost: 3ms, jshash: 1495668776, jscost: 4ms
-str len: 1498900, chash: 2627556732670318324, ccost: 4ms, jshash: 2880979130, jscost: 4ms
-str len: 1499000, chash: 13681449929714928930, ccost: 3ms, jshash: 1361922662, jscost: 4ms
-str len: 1499100, chash: 6405452296833299018, ccost: 4ms, jshash: 895342634, jscost: 4ms
-str len: 1499200, chash: 16526966890961178291, ccost: 5ms, jshash: 865975876, jscost: 4ms
-str len: 1499300, chash: 15297397582351815960, ccost: 5ms, jshash: 524496462, jscost: 4ms
-str len: 1499400, chash: 1175421353098759566, ccost: 4ms, jshash: 2131319352, jscost: 4ms
-str len: 1499500, chash: 10034374583124457430, ccost: 4ms, jshash: 1137917050, jscost: 4ms
-str len: 1499600, chash: 15738126963761576412, ccost: 3ms, jshash: 3870259382, jscost: 4ms
+str len: 1015500, chash: 5620606355790036956, ccost: 4ms, jshash: 167184570, jscost: 2ms
+str len: 1015600, chash: 10874662383558025995, ccost: 4ms, jshash: 3311385079, jscost: 3ms
+str len: 1015700, chash: 15776267706473376888, ccost: 4ms, jshash: 3498240388, jscost: 3ms
+str len: 1015800, chash: 17029769845137879536, ccost: 5ms, jshash: 3927799482, jscost: 3ms
+str len: 1015900, chash: 6887563315475231242, ccost: 4ms, jshash: 216645018, jscost: 3ms
+str len: 1016000, chash: 2968967695129708208, ccost: 4ms, jshash: 3245355692, jscost: 3ms
+str len: 1016100, chash: 4131619634005393181, ccost: 4ms, jshash: 1153950389, jscost: 3ms
+str len: 1016200, chash: 12733277094490451133, ccost: 4ms, jshash: 707503015, jscost: 3ms
+str len: 1016300, chash: 7494290025774606635, ccost: 4ms, jshash: 1143700581, jscost: 3ms
+str len: 1016400, chash: 16707951246587824189, ccost: 4ms, jshash: 740315249, jscost: 3ms
+str len: 1016500, chash: 13174127673307437161, ccost: 4ms, jshash: 3371570721, jscost: 3ms
+str len: 1016600, chash: 3096866833439904570, ccost: 5ms, jshash: 344106438, jscost: 3ms
+str len: 1016700, chash: 13216228890273805710, ccost: 4ms, jshash: 3351662480, jscost: 3ms
+str len: 1016800, chash: 3786560890022470688, ccost: 4ms, jshash: 1146721132, jscost: 3ms
+str len: 1016900, chash: 6264948834032406370, ccost: 5ms, jshash: 3632800100, jscost: 3ms
+str len: 1017000, chash: 10269122484962237760, ccost: 4ms, jshash: 1218797594, jscost: 3ms
+str len: 1017100, chash: 7353679051826652860, ccost: 4ms, jshash: 3134960518, jscost: 3ms
+str len: 1017200, chash: 5216546687205616906, ccost: 4ms, jshash: 158689324, jscost: 3ms
+str len: 1017300, chash: 14086134388828648693, ccost: 3ms, jshash: 4195937407, jscost: 3ms
+str len: 1017400, chash: 11333811075102638927, ccost: 3ms, jshash: 2421106223, jscost: 3ms
+str len: 1017500, chash: 1452589173099358474, ccost: 4ms, jshash: 244393614, jscost: 2ms
+str len: 1017600, chash: 11247837246370304610, ccost: 4ms, jshash: 318440784, jscost: 3ms
+str len: 1017700, chash: 8332974320121134159, ccost: 4ms, jshash: 3614359491, jscost: 3ms
 ```
-100万长度的字符串进行hash，可以看到，`js`的实现，在`v8`中的运行效率相当不错，几乎接近`c++`扩展的实现，有兴趣的可以修改  测试样例中的字符串长度进行验证~
+100万长度的字符串进行hash，可以看到，`js`的实现，在`v8`中的运行效率相当不错，比`c++`扩展的实现的性能还要好，有兴趣的可以修改  测试样例中的字符串长度进行验证~
