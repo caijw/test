@@ -9,15 +9,15 @@ http://www.cse.yorku.ca/~oz/hash.html
 https://nodejs.org/dist/latest-v10.x/docs/api/n-api.html#n_api_napi_create_bigint_uint6  
 这里将其转换为`v8`的`string`返回，会有性能损耗，等`n_api_napi_create_bigint_uint64`特性不再是`Experimental`再改成`n_api_napi_create_bigint_uint64 `   
 测试代码:  `./main.cpp  `
+
 3. `js`已有的实现:  
 https://github.com/darkskyapp/string-hash#readme  
 这个实现返回的是32位无符号，*算法要求是64位*，这个实现是有问题的，只是拿来作为测试  
-测试代码: `./test/test1.js`
+测试代码: `./hash.js`
 
 4. 运行环境：  
 nodejs: 10.13.0  
 system: macos 10.14.2 
-
 
 5. 测试结果，截取其中一部分：  
 ```
@@ -45,4 +45,9 @@ str len: 1017500, chash: 1452589173099358474, ccost: 4ms, jshash: 244393614, jsc
 str len: 1017600, chash: 11247837246370304610, ccost: 4ms, jshash: 318440784, jscost: 3ms
 str len: 1017700, chash: 8332974320121134159, ccost: 4ms, jshash: 3614359491, jscost: 3ms
 ```
+
+6. 测试代码：  
+`./test/tes1.js`
+
+7. 结论：  
 100万长度的字符串进行hash，可以看到，`js`的实现，在`v8`中的运行效率相当不错，比`c++`扩展的实现的性能还要好，有兴趣的可以修改  测试样例中的字符串长度进行验证~
